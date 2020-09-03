@@ -5,16 +5,12 @@ import { createGlobalStyle } from "styled-components";
 import Main from "./pages/Main";
 
 import MonumentGroteskRegularWoff from "./assets/fonts/MonumentGrotesk-Regular.woff";
-import MonumentGroteskRegularTtf from "./assets/fonts/MonumentGrotesk-Regular.ttf";
-import MonumentGroteskRegularOtf from "./assets/fonts/MonumentGrotesk-Regular.otf";
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: 'MonumentGrotesk Regular';
     src: local('MonumentGrotesk Regular'),
-        url(${MonumentGroteskRegularWoff}) format('woff'),
-        url(${MonumentGroteskRegularTtf}) format('ttf'),
-        url(${MonumentGroteskRegularOtf}) format('eot');
+        url(${MonumentGroteskRegularWoff}) format('woff');
   }
 
   body {
