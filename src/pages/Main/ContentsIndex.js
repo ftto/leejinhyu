@@ -38,7 +38,7 @@ const IndexTextWrap = styled.div`
 
 const IndexText = styled.div`
   font-size: 18px;
-  height: 24px;
+  height: 23px;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -54,7 +54,7 @@ function IndexComponent() {
         <IndexGroup>
           <IndexRow>
             <IndexCol flex>
-              <IndexTextWrap border>
+              <IndexTextWrap>
                 <IndexText>Abstract</IndexText>
               </IndexTextWrap>
             </IndexCol>

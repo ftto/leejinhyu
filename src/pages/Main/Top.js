@@ -35,7 +35,7 @@ const TitleCol = styled.div`
 `;
 const TitleColHeader = styled.div`
   padding-top: 27px;
-  padding-bottom: 22px;
+  padding-bottom: 19px;
   font-size: 60px;
   line-height: 48px;
 `;

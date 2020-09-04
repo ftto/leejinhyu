@@ -1,60 +1,24 @@
 import React from "react";
 import styled from "styled-components";
 
-const Section = styled.div`
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 60px;
-`;
+import {
+  Section,
+  Title,
+  TitleWrap,
+  TitleNumber,
+  TitleText,
+  Body,
+  Col,
+  Text,
+} from "../../components";
 
-const Title = styled.div`
-  width: 472px;
-  border-top: 1px solid #fff;
-  height: 36px;
-  border-left: 4px solid #fff;
-  padding-left: 12px;
-  padding-top: 11px;
-`;
-const TitleWrap = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-`;
-const TitleNumber = styled.div`
-  width: 24px;
-  height: 24px;
-  border: 1px solid #fff;
-  border-radius: 50%;
-  font-size: 18px;
-  line-height: 24px;
-  text-align: center;
-`;
-
-const TitleText = styled.div`
-  padding-left: 8px;
-  font-size: 18px;
-`;
-
-const Body = styled.div`
-  border-top: 4px solid #fff;
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-`;
-const Col = styled.div`
-  width: 448px;
-  ${({ left }) => left && `margin-right: 16px;`}
-`;
-const Text = styled.div`
-  flex: 1;
-  padding-top: 8px;
-  font-size: 18px;
-  line-height: 24px;
+const AbstractSection = styled(Section)`
+  padding-bottom: 58px;
 `;
 
 function AbstractComponent() {
   return (
-    <Section>
+    <AbstractSection>
       <Title>
         <TitleWrap>
           <TitleNumber>1 </TitleNumber>
@@ -64,8 +28,8 @@ function AbstractComponent() {
       <Body>
         <Col left>
           <Text>
-            &nbsp; &nbsp; &nbsp; &nbsp;Nowadays, with the development of
-            Artificial
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Nowadays, with the
+            development of Artificial
             <br />
             Intelligence technology, AI services are a major
             <br />
@@ -161,7 +125,7 @@ function AbstractComponent() {
           </Text>
         </Col>
       </Body>
-    </Section>
+    </AbstractSection>
   );
 }
 

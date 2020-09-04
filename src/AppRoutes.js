@@ -5,12 +5,13 @@ import { createGlobalStyle } from "styled-components";
 import Main from "./pages/Main";
 
 import MonumentGroteskRegularWoff from "./assets/fonts/MonumentGrotesk-Regular.woff";
+import MonumentGroteskRegularWoff2 from "./assets/fonts/MonumentGrotesk-Regular.woff2";
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: 'MonumentGrotesk Regular';
     src: local('MonumentGrotesk Regular'),
-        url(${MonumentGroteskRegularWoff}) format('woff');
+        url(${MonumentGroteskRegularWoff2}) format('woff2');
   }
 
   body {
@@ -23,7 +24,9 @@ const GlobalStyle = createGlobalStyle`
   *, :after, :before {
     box-sizing: border-box;
     font-family: 'MonumentGrotesk Regular', AppleSDGothicNeo, sans-serif;
-    
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
   }
 `;
 
