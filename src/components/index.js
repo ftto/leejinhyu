@@ -36,15 +36,22 @@ export const TitleText = styled.div`
 export const Body = styled.div`
   border-top: 4px solid #fff;
   flex: 1;
-  display: flex;
-  flex-direction: row;
   padding-top: 10px;
-  flex-wrap: wrap;
+  padding-right: 8px;
   position: relative;
 `;
+export const Row = styled.div`
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  margin-left: -8px;
+  margin-right: -8px;
+`;
+
 export const Col = styled.div`
-  width: 448px;
-  ${({ left }) => left && `margin-right: 16px;`}
+  flex: 1;
+  padding-left: 8px;
+  padding-right: 8px;
 `;
 export const Text = styled.div`
   flex: 1;
