@@ -1,6 +1,22 @@
 import React, { useLayoutEffect, useState } from "react";
 import styled from "styled-components";
 
+import {
+  ABSTRACT_OFFSET,
+  CONCEPT_OFFSET,
+  RESEARCH_OFFSET,
+  EXPERIMENT_OFFSET,
+  CONCLUSION_OFFSET,
+  BIBLIOGRAPHY_OFFSET,
+  ABSTRACT,
+  CONCEPT,
+  RESEARCH,
+  EXPERIMENT,
+  CONCLUSION,
+  BIBLIOGRAPHY,
+  linkSection,
+} from "../../utils";
+
 const Top = styled.div`
   display: flex;
   flex-direction: row;
@@ -110,20 +126,6 @@ const TitleColDescContent = styled.div`
   line-height: 18px;
 `;
 
-const ABSTRACT_OFFSET = 538;
-const CONCEPT_OFFSET = 1162;
-const RESEARCH_OFFSET = 2578;
-const EXPERIMENT_OFFSET = 5602;
-const CONCLUSION_OFFSET = 16938;
-const BIBLIOGRAPHY_OFFSET = 17490;
-
-const ABSTRACT = "ABSTRACT";
-const CONCEPT = "CONCEPT";
-const RESEARCH = "RESEARCH";
-const EXPERIMENT = "EXPERIMENT";
-const CONCLUSION = "CONCLUSION";
-const BIBLIOGRAPHY = "BIBLIOGRAPHY";
-
 function TopComponent() {
   const [scrolled, setScrolled] = useState(false);
   const [current, setCurrent] = useState(false);
@@ -131,7 +133,6 @@ function TopComponent() {
   const handleScroll = (e) => {
     let scrollTop = e.srcElement.scrollingElement.scrollTop;
 
-    console.log("scrollTop", scrollTop);
     if (scrollTop > 526) {
       setScrolled(true);
     } else {
@@ -160,10 +161,6 @@ function TopComponent() {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  const linkSection = (_top) => {
-    window.scrollTo({ top: _top, behavior: "smooth" });
-  };
 
   return (
     <>

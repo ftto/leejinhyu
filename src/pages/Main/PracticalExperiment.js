@@ -374,7 +374,7 @@ function PracticalExperimentComponent() {
         <RowMargin margin={24}>
           <Col>
             <Text>
-              3.3 Prototype
+              4.3 Prototype
               <br />
               <br />
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The graphic

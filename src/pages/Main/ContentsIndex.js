@@ -1,6 +1,19 @@
 import React from "react";
 import styled from "styled-components";
 
+import {
+  CONCEPT_OFFSET,
+  RESEARCH_OFFSET,
+  RESEARCH_34_OFFSET,
+  EXPERIMENT_OFFSET,
+  EXPERIMENT_2_OFFSET,
+  EXPERIMENT_3_OFFSET,
+  EXPERIMENT_4_OFFSET,
+  CONCLUSION_OFFSET,
+  BIBLIOGRAPHY_OFFSET,
+  linkSection,
+} from "../../utils";
+
 const Index = styled.div`
   padding-bottom: 12px;
 `;
@@ -55,6 +68,7 @@ const IndexArrow = styled.div`
   position: absolute;
   top: 2px;
   right: 8px;
+  cursor: pointer;
 `;
 
 function IndexComponent() {
@@ -83,11 +97,11 @@ function IndexComponent() {
             <IndexCol flex>
               <IndexTextWrap border>
                 <IndexText>2.1 Background</IndexText>
-                <IndexArrow />
+                <IndexArrow onClick={() => linkSection(CONCEPT_OFFSET)} />
               </IndexTextWrap>
               <IndexTextWrap>
                 <IndexText>2.2 Idea</IndexText>
-                <IndexArrow />
+                <IndexArrow onClick={() => linkSection(CONCEPT_OFFSET)} />
               </IndexTextWrap>
             </IndexCol>
           </IndexRow>
@@ -104,19 +118,19 @@ function IndexComponent() {
                 <IndexText>
                   3.1 Universal Facial Expressions of Human Emotion
                 </IndexText>
-                <IndexArrow />
+                <IndexArrow onClick={() => linkSection(RESEARCH_OFFSET)} />
               </IndexTextWrap>
               <IndexTextWrap border>
                 <IndexText>3.2 Method to Express an AI's Emotions</IndexText>
-                <IndexArrow />
+                <IndexArrow onClick={() => linkSection(RESEARCH_OFFSET)} />
               </IndexTextWrap>
               <IndexTextWrap border>
                 <IndexText>3.3 Color Theory</IndexText>
-                <IndexArrow />
+                <IndexArrow onClick={() => linkSection(RESEARCH_34_OFFSET)} />
               </IndexTextWrap>
               <IndexTextWrap>
                 <IndexText>3.4 Features of Human Facial Expressions</IndexText>
-                <IndexArrow />
+                <IndexArrow onClick={() => linkSection(RESEARCH_34_OFFSET)} />
               </IndexTextWrap>
             </IndexCol>
           </IndexRow>
@@ -131,15 +145,15 @@ function IndexComponent() {
             <IndexCol flex>
               <IndexTextWrap border>
                 <IndexText>4.1 Grahic Shape</IndexText>
-                <IndexArrow />
+                <IndexArrow onClick={() => linkSection(EXPERIMENT_OFFSET)} />
               </IndexTextWrap>
               <IndexTextWrap border>
                 <IndexText>4.2 Color system</IndexText>
-                <IndexArrow />
+                <IndexArrow onClick={() => linkSection(EXPERIMENT_2_OFFSET)} />
               </IndexTextWrap>
               <IndexTextWrap border>
                 <IndexText>4.3 Movement</IndexText>
-                <IndexArrow />
+                <IndexArrow onClick={() => linkSection(EXPERIMENT_3_OFFSET)} />
               </IndexTextWrap>
               <IndexRow>
                 <IndexCol first>
@@ -150,15 +164,21 @@ function IndexComponent() {
                 <IndexCol flex>
                   <IndexTextWrap border>
                     <IndexText>News Information</IndexText>
-                    <IndexArrow />
+                    <IndexArrow
+                      onClick={() => linkSection(EXPERIMENT_4_OFFSET)}
+                    />
                   </IndexTextWrap>
                   <IndexTextWrap border>
                     <IndexText>Weather Information</IndexText>
-                    <IndexArrow />
+                    <IndexArrow
+                      onClick={() => linkSection(EXPERIMENT_4_OFFSET)}
+                    />
                   </IndexTextWrap>
                   <IndexTextWrap>
                     <IndexText>3-Dimensional Effects</IndexText>
-                    <IndexArrow />
+                    <IndexArrow
+                      onClick={() => linkSection(EXPERIMENT_4_OFFSET)}
+                    />
                   </IndexTextWrap>
                 </IndexCol>
               </IndexRow>
@@ -170,7 +190,7 @@ function IndexComponent() {
             <IndexCol flex>
               <IndexTextWrap>
                 <IndexText>Conclusion</IndexText>
-                <IndexArrow />
+                <IndexArrow onClick={() => linkSection(CONCLUSION_OFFSET)} />
               </IndexTextWrap>
             </IndexCol>
           </IndexRow>
@@ -180,7 +200,7 @@ function IndexComponent() {
             <IndexCol flex>
               <IndexTextWrap>
                 <IndexText>Bibliography</IndexText>
-                <IndexArrow />
+                <IndexArrow onClick={() => linkSection(BIBLIOGRAPHY_OFFSET)} />
               </IndexTextWrap>
             </IndexCol>
           </IndexRow>
