@@ -88,5 +88,6 @@ export const Bookmark = styled.div`
   line-height: 18px;
   letter-spacing: 0.5px;
   color: #aaa;
+  word-break: break-word;
   ${({ active }) => active && `color: #0076ff;`}
 `;

@@ -34,6 +34,7 @@ const IndexCol = styled.div`
 `;
 const IndexTextWrap = styled.div`
   ${({ border }) => border && `border-bottom: 1px solid #fff;`}
+  position: relative;
 `;
 
 const IndexText = styled.div`
@@ -42,6 +43,18 @@ const IndexText = styled.div`
   display: flex;
   align-items: center;
   flex-direction: row;
+`;
+
+const IndexArrow = styled.div`
+  background-image: url(/assets/images/arrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2px;
+  right: 8px;
 `;
 
 function IndexComponent() {
@@ -70,9 +83,11 @@ function IndexComponent() {
             <IndexCol flex>
               <IndexTextWrap border>
                 <IndexText>2.1 Background</IndexText>
+                <IndexArrow />
               </IndexTextWrap>
               <IndexTextWrap>
                 <IndexText>2.2 Idea</IndexText>
+                <IndexArrow />
               </IndexTextWrap>
             </IndexCol>
           </IndexRow>
@@ -89,15 +104,19 @@ function IndexComponent() {
                 <IndexText>
                   3.1 Universal Facial Expressions of Human Emotion
                 </IndexText>
+                <IndexArrow />
               </IndexTextWrap>
               <IndexTextWrap border>
                 <IndexText>3.2 Method to Express an AI's Emotions</IndexText>
+                <IndexArrow />
               </IndexTextWrap>
               <IndexTextWrap border>
                 <IndexText>3.3 Color Theory</IndexText>
+                <IndexArrow />
               </IndexTextWrap>
               <IndexTextWrap>
                 <IndexText>3.4 Features of Human Facial Expressions</IndexText>
+                <IndexArrow />
               </IndexTextWrap>
             </IndexCol>
           </IndexRow>
@@ -112,12 +131,15 @@ function IndexComponent() {
             <IndexCol flex>
               <IndexTextWrap border>
                 <IndexText>4.1 Grahic Shape</IndexText>
+                <IndexArrow />
               </IndexTextWrap>
               <IndexTextWrap border>
                 <IndexText>4.2 Color system</IndexText>
+                <IndexArrow />
               </IndexTextWrap>
               <IndexTextWrap border>
                 <IndexText>4.3 Movement</IndexText>
+                <IndexArrow />
               </IndexTextWrap>
               <IndexRow>
                 <IndexCol first>
@@ -128,12 +150,15 @@ function IndexComponent() {
                 <IndexCol flex>
                   <IndexTextWrap border>
                     <IndexText>News Information</IndexText>
+                    <IndexArrow />
                   </IndexTextWrap>
                   <IndexTextWrap border>
                     <IndexText>Weather Information</IndexText>
+                    <IndexArrow />
                   </IndexTextWrap>
                   <IndexTextWrap>
                     <IndexText>3-Dimensional Effects</IndexText>
+                    <IndexArrow />
                   </IndexTextWrap>
                 </IndexCol>
               </IndexRow>
@@ -145,6 +170,7 @@ function IndexComponent() {
             <IndexCol flex>
               <IndexTextWrap>
                 <IndexText>Conclusion</IndexText>
+                <IndexArrow />
               </IndexTextWrap>
             </IndexCol>
           </IndexRow>
@@ -154,6 +180,7 @@ function IndexComponent() {
             <IndexCol flex>
               <IndexTextWrap>
                 <IndexText>Bibliography</IndexText>
+                <IndexArrow />
               </IndexTextWrap>
             </IndexCol>
           </IndexRow>

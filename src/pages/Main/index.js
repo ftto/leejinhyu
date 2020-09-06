@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useLayoutEffect } from "react";
 import styled from "styled-components";
 
 import Top from "./Top";
@@ -14,6 +14,7 @@ import Footer from "./Footer";
 const Container = styled.div`
   width: 1392px;
   margin: 0 auto;
+  position: relative;
 `;
 
 const BaseLine = styled.div`

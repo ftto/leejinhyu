@@ -11,7 +11,8 @@ const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: 'MonumentGrotesk Regular';
     src: local('MonumentGrotesk Regular'),
-        url(${MonumentGroteskRegularWoff2}) format('woff2');
+        url(${MonumentGroteskRegularWoff2}) format('woff2'),
+        url(${MonumentGroteskRegularWoff}) format('woff');
   }
 
   body {

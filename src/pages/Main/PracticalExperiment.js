@@ -44,7 +44,7 @@ const ImageFig10 = styled(Image)``;
 const ImageFig10Remark = styled(ImageRemark)``;
 
 const ImageFig11 = styled(Image)`
-  outline: 1px solid #222;
+  outline: 1px solid #111;
   margin-top: 0;
 `;
 const ImageFig11Comment = styled.div`
@@ -57,7 +57,7 @@ const ImageFig11Remark = styled(ImageRemark)``;
 
 const ImageFig12 = styled(Image)`
   margin-top: 0;
-  outline: 1px solid #222;
+  outline: 1px solid #111;
 `;
 const ImageFig12Comment = styled.div`
   height: 40px;
@@ -69,14 +69,14 @@ const ImageFig12Comment = styled.div`
 const ImageFig12Remark = styled(ImageRemark)``;
 
 const ImageFig13 = styled(Image)`
-  outline: 1px solid #222;
+  outline: 1px solid #111;
   margin-top: 0;
 `;
 const ImageFig13Remark = styled(ImageRemark)``;
 
 const ImageFig14 = styled(Image)`
   margin-top: 0;
-  outline: 1px solid #222;
+  outline: 1px solid #111;
 `;
 const ImageFig14Remark = styled(ImageRemark)``;
 
@@ -315,22 +315,20 @@ function PracticalExperimentComponent() {
           <Col>
             <ImageFig10 src="/assets/images/fig-10_4.gif" alt="Fig. 10-4" />
           </Col>
-        </RowMargin>
-        <RowMargin margin={3}>
           <Col>
             <ImageFig10 src="/assets/images/fig-10_5.gif" alt="Fig. 10-5" />
           </Col>
           <Col>
             <ImageFig10 src="/assets/images/fig-10_6.gif" alt="Fig. 10-6" />
           </Col>
+        </RowMargin>
+        <RowMargin margin={3}>
           <Col>
             <ImageFig10 src="/assets/images/fig-10_7.gif" alt="Fig. 10-7" />
           </Col>
           <Col>
             <ImageFig10 src="/assets/images/fig-10_8.gif" alt="Fig. 10-8" />
           </Col>
-        </RowMargin>
-        <RowMargin margin={3}>
           <Col>
             <ImageFig10 src="/assets/images/fig-10_9.gif" alt="Fig. 10-9" />
           </Col>
@@ -357,17 +355,14 @@ function PracticalExperimentComponent() {
           <Col>
             <ImageFig10 src="/assets/images/fig-10_16.gif" alt="Fig. 10-16" />
           </Col>
-        </RowMargin>
-        <RowMargin margin={3}>
           <Col>
             <ImageFig10 src="/assets/images/fig-10_17.gif" alt="Fig. 10-17" />
           </Col>
           <Col>
             <ImageFig10 src="/assets/images/fig-10_18.gif" alt="Fig. 10-18" />
           </Col>
-          <Col></Col>
-          <Col></Col>
         </RowMargin>
+
         <RowMargin margin={25}>
           <Col>
             <ImageFig10Remark>

@@ -65,6 +65,15 @@ const FooterBiography = styled.div`
   padding-top: 15px;
 `;
 
+const Link = styled.a`
+  color: #fff;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
 function FooterComponent() {
   return (
     <Footer>
@@ -108,14 +117,16 @@ function FooterComponent() {
             <br />
             M +41 78 79 681 07
             <br />
-            jingyu.lee@students.fhnw.ch
+            <Link href="mailto:jingyu.lee@students.fhnw.ch">
+              jingyu.lee@students.fhnw.ch
+            </Link>
             <br />
             <br />
             Concept and Design: Jingyu Lee
             <br />
-            Code: ftto, Aki Kim
+            Code: ftto, Aki, Hoony
             <br />
-            Typeface: Suisse Works Regular, Swiss Typefaces
+            Typeface: Monument Grotesk Regular, Dinamo
           </FooterText>
         </FooterBottomColLeft>
         <FooterBottomCol>
