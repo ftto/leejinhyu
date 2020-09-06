@@ -115,7 +115,7 @@ function FooterComponent() {
             Switzerland
             <br />
             <br />
-            M +41 78 79 681 07
+            +41 78-79-681-07
             <br />
             <Link href="mailto:jingyu.lee@students.fhnw.ch">
               jingyu.lee@students.fhnw.ch
@@ -124,7 +124,7 @@ function FooterComponent() {
             <br />
             Concept and Design: Jingyu Lee
             <br />
-            Code: ftto, Aki, Hoony
+            Code: ftto, Aki and Hoony
             <br />
             Typeface: Monument Grotesk Regular, Dinamo
           </FooterText>
@@ -138,9 +138,9 @@ function FooterComponent() {
                 <br />
                 Hochschule für Gestaltung und Kunst FHNW
                 <br />
-                A. Münchenstein CH, Freilager-Platz 1, 4142 Basel
+                Münchenstein CH, Freilager-Platz 1, 4142 Basel
                 <br />
-                T. +41 61 228 41 11
+                +41 61-228-41-11
               </FooterBottomRowText>
             </FooterBottomRowCol>
             <FooterBottomRowCol>
@@ -150,9 +150,9 @@ function FooterComponent() {
                 <br />
                 University of Illinois at Chicago
                 <br />
-                A. 106 Jefferson Hall, 929 W Harrison St, Chicago, IL 60607
+                106 Jefferson Hall, 929 W Harrison St, Chicago, IL 60607
                 <br />
-                T. +1 312-996-3339
+                +1 312-996-3337
               </FooterBottomRowText>
             </FooterBottomRowCol>
           </FooterBottomRow>
@@ -161,15 +161,18 @@ function FooterComponent() {
               Biography
               <br />
               <br />
-              Jingyu Lee studied industrial design for his Bachelor's degree.
-              After graduating, he started his professional career as a UI/UX
+              &nbsp; &nbsp; &nbsp; &nbsp;Jingyu Lee studied industrial design
+              for his Bachelor's degree. After graduating, he started his
+              professional career as a UI/UX <br />
               designer from 2014. He is interested in the high-tech IT industry
               and has already designed numerous services for a digital
-              environment. On the other hand, he is into modern mid-
-              20th-century graphic design, especially the Swiss International
-              Style, which brought him to Basel, Switzerland. Since 2018, he has
-              been studying for a Master's degree at the Basel School of Design
-              and the University of Illinois at Chicago.
+              environment. On <br />
+              the other hand, he is into modern mid- 20th-century graphic
+              design, especially the Swiss International Style, which brought
+              him to Basel, <br />
+              Switzerland. Since 2018, he has been studying for a Master's
+              degree at the Basel School of Design and the University of
+              Illinois at Chicago.
             </FooterText>
           </FooterBiography>
         </FooterBottomCol>

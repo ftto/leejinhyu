@@ -34,7 +34,6 @@ const ScrollComponent = styled.div`
   ${({ show }) =>
     show &&
     `
-      transition: opacity 0.5s;
       opacity: 1;
     `}
 `;
@@ -112,8 +111,8 @@ const TitleColDescContent = styled.div`
 `;
 
 const ABSTRACT_OFFSET = 538;
-const CONCEPT_OFFSET = 1158;
-const RESEARCH_OFFSET = 2576;
+const CONCEPT_OFFSET = 1162;
+const RESEARCH_OFFSET = 2578;
 const EXPERIMENT_OFFSET = 5602;
 const CONCLUSION_OFFSET = 16938;
 const BIBLIOGRAPHY_OFFSET = 17490;
@@ -133,7 +132,7 @@ function TopComponent() {
     let scrollTop = e.srcElement.scrollingElement.scrollTop;
 
     console.log("scrollTop", scrollTop);
-    if (scrollTop > 518) {
+    if (scrollTop > 526) {
       setScrolled(true);
     } else {
       setScrolled(false);
