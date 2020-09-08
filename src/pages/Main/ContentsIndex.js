@@ -139,7 +139,7 @@ function IndexComponent() {
           <IndexRow>
             <IndexCol first>
               <IndexTextWrap>
-                <IndexText>Practical Experiment</IndexText>
+                <IndexText>Experiment</IndexText>
               </IndexTextWrap>
             </IndexCol>
             <IndexCol flex>
