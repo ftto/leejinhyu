@@ -86,7 +86,7 @@ function PracticalExperimentComponent() {
       <Title>
         <TitleWrap>
           <TitleNumber>4</TitleNumber>
-          <TitleText>Practical Experiment</TitleText>
+          <TitleText>Experiment</TitleText>
         </TitleWrap>
       </Title>
       <Body>
@@ -374,7 +374,7 @@ function PracticalExperimentComponent() {
         <RowMargin margin={24}>
           <Col>
             <Text>
-              4.3 Prototype
+              4.4 Prototype
               <br />
               <br />
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The graphic
@@ -444,7 +444,7 @@ function PracticalExperimentComponent() {
               graphic shapes, the image makes tension visible on-
               <br />
               screen. From the experiment, new style of graphic <br />
-              images in 3 dimensional effects are developed.
+              images in material effects are developed.
             </Text>
           </Col>
         </RowMargin>
@@ -598,8 +598,8 @@ function PracticalExperimentComponent() {
         <RowMargin margin={8}>
           <Col>
             <ImageFig14Remark>
-              Fig. 14: Jingyu Lee, visual experiment, prototype with
-              3-dimensional effects, 2020
+              Fig. 14: Jingyu Lee, visual experiment, prototype with material
+              effects, 2020
             </ImageFig14Remark>
           </Col>
           <Col></Col>

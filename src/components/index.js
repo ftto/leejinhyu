@@ -61,7 +61,7 @@ export const Text = styled.div`
 
 export const Gray = styled.span`
   color: #aaa;
-  ${({ active }) => active && `color: #0076ff;`}
+  ${({ active }) => active && `color: #00ff55;`}
 `;
 
 export const Image = styled.img`
@@ -89,5 +89,5 @@ export const Bookmark = styled.div`
   letter-spacing: 0.5px;
   color: #aaa;
   word-break: break-word;
-  ${({ active }) => active && `color: #0076ff;`}
+  ${({ active }) => active && `color: #00ff55;`}
 `;
