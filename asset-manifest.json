@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.819bca2e.chunk.js",
-    "main.js.map": "/static/js/main.819bca2e.chunk.js.map",
+    "main.js": "/static/js/main.fdf33c5d.chunk.js",
+    "main.js.map": "/static/js/main.fdf33c5d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f76cf2e0.js",
     "runtime-main.js.map": "/static/js/runtime-main.f76cf2e0.js.map",
     "static/js/2.fcb57fe5.chunk.js": "/static/js/2.fcb57fe5.chunk.js",
     "static/js/2.fcb57fe5.chunk.js.map": "/static/js/2.fcb57fe5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fab3338831c3af0aeec9210931d94819.js": "/precache-manifest.fab3338831c3af0aeec9210931d94819.js",
+    "precache-manifest.bd623508920c3f792dc3a257c0a0a3f1.js": "/precache-manifest.bd623508920c3f792dc3a257c0a0a3f1.js",
     "service-worker.js": "/service-worker.js",
     "static/js/2.fcb57fe5.chunk.js.LICENSE.txt": "/static/js/2.fcb57fe5.chunk.js.LICENSE.txt",
     "static/media/MonumentGrotesk-Regular.woff": "/static/media/MonumentGrotesk-Regular.07a05a3e.woff",
@@ -16,6 +16,6 @@
   "entrypoints": [
     "static/js/runtime-main.f76cf2e0.js",
     "static/js/2.fcb57fe5.chunk.js",
-    "static/js/main.819bca2e.chunk.js"
+    "static/js/main.fdf33c5d.chunk.js"
   ]
 }
